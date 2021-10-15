@@ -1,0 +1,12 @@
+.main {
+  input {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--primaryColor);
+    }
+  }
+}
