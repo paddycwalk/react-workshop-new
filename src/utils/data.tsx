@@ -1,27 +1,23 @@
-export const dayData = {
-  date: '15.10.2021',
+import { DayData } from 'model/model';
+
+export const dayData: DayData = {
+  id: '1',
+  date: '14.10.2021',
   total: '5:00',
-  timeEntry: [
+  timeEntries: [
     {
-      id: '110',
-      taskName: 'Ticket 450',
-      startTime: '10:00',
+      id: '1',
+      taskName: 'Ticket 1',
+      startTime: '09:00',
       endTime: '12:00',
-      dif: '2:00',
+      diff: '3:00',
     },
     {
-      id: '111',
-      taskName: 'Ticket 350',
-      startTime: '12:00',
-      endTime: '14:00',
+      id: '1',
+      taskName: 'Ticket 2',
+      startTime: '13:00',
+      endTime: '15:00',
       diff: '2:00',
-    },
-    {
-      id: '112',
-      taskName: 'Ticket 550',
-      startTime: '15:00',
-      endTime: '16:00',
-      diff: '1:00',
     },
   ],
 };
