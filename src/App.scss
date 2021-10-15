@@ -1,5 +1,57 @@
+@mixin mobile-only {
+  @media (max-width: 786px) {
+    @content;
+  }
+}
+
+@include mobile-only {
+  body,
+  input,
+  textarea,
+  select {
+    font-size: var(--fontSize500);
+  }
+}
+
 :root {
   --navBarHeight: 50px;
+
+  --blue100: #ebf6ff;
+  --blue200: #9ac9ff;
+  --blue300: #39a3e0;
   --blue400: #0782ca;
+  --blue500: #0771af;
+
+  --grey200: #dfdfdf;
+  --grey500: #999999;
+  --grey600: #777777;
+
+  --white: #ffffff;
+  --red400: #d10202;
+  --red500: #ac0505;
+
+  --fontSize400: 14px;
+  --fontSize500: 16px;
+
   --primaryColor: var(--blue400);
+  --primaryHoverColor: var(--blue500);
+  --primaryTextColor: var(--white);
+
+  --inverseColor: var(--white);
+  --inverseHoverColor: var(--grey200);
+  --inverseTextColor: var(--primaryColor);
+
+  --space100: 3px;
+  --space200: 6px;
+  --space300: 10px;
+  --space400: 16px;
+  --space500: 20px;
+  --space600: 30px;
+  --space700: 40px;
+}
+
+body {
+  font-size: var(--fontSize400);
+  -webkit-font-smoothing: antialised;
+  line-height: 1.3;
 }
