@@ -16,6 +16,13 @@
 :root {
   --navBarHeight: 50px;
 
+  // font
+  --fontSize400: 14px;
+  --fontSize500: 16px;
+
+  // Colors
+  --white: #ffffff;
+
   --blue100: #ebf6ff;
   --blue200: #9ac9ff;
   --blue300: #39a3e0;
@@ -26,12 +33,8 @@
   --grey500: #999999;
   --grey600: #777777;
 
-  --white: #ffffff;
   --red400: #d10202;
   --red500: #ac0505;
-
-  --fontSize400: 14px;
-  --fontSize500: 16px;
 
   --primaryColor: var(--blue400);
   --primaryHoverColor: var(--blue500);
@@ -41,6 +44,7 @@
   --inverseHoverColor: var(--grey200);
   --inverseTextColor: var(--primaryColor);
 
+  // Spacing
   --space100: 3px;
   --space200: 6px;
   --space300: 10px;

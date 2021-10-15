@@ -11,7 +11,7 @@ function DayView({ data }: Props) {
 
   return (
     <div className={styles.main}>
-      <div>Date: {data.date}</div>
+      <div>Dates: {data.date}</div>
       <div>Gesamt Diff: {data.total}</div>
 
       {data.timeEntries.map((timeEmtry: TimeEntryData) => (
